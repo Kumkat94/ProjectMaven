@@ -36,7 +36,7 @@ public class AppTest
         int Test, Test2;
         Test=App.max(3,2);
         Test2=App.max(6,8);
-        System.out.println("Resultat 1: "+Test+" Resultat2: "+Test2);
+        System.out.println("Resultat 1: "+Test+" Resultat 2: "+Test2);
         assertEquals(App.max(4,5),App.max(5,4));
     }
 }

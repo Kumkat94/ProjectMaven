@@ -17,7 +17,7 @@
   </dependencies>
 
   <build>
-    <finalName>dateutils</finalName>
+    <finalName>marelease</finalName>
     <plugins>
 
       <!-- download source code in Eclipse, best practice -->
@@ -37,8 +37,8 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>2.3.2</version>
         <configuration>
-          <source>${jdk.version}</source>
-          <target>${jdk.version}</target>
+          <source>1.8</source>
+          <target>org.apache.maven.plugins</target>
         </configuration>
       </plugin>
 
@@ -54,7 +54,7 @@
           <archive>
           <manifest>
             <!-- Jar file entry point -->
-            <mainClass>com.mkyong.core.utils.App</mainClass>
+            <mainClass>jf.App</mainClass>
           </manifest>
           </archive>
         </configuration>

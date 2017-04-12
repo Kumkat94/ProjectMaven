@@ -7,7 +7,8 @@ package jf;
 public class App 
 {
 	public static int max(int a,int b){
-		return a>b?a:b;
+		//return a>b?a:b;
+		return a; // Le stagiaire est passe par la
 	}
 	public static void main( String[] args )
     {  	
