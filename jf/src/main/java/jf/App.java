@@ -2,9 +2,14 @@ package jf;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.Arrays;
 import java.util.List;
+import java.util.Vector;
+
+import org.apache.commons.collections.CollectionUtils;
 
 import com.opencsv.CSVReader;
+
 
 /**
  * Hello world!
@@ -34,7 +39,12 @@ public class App
 		        List<String[]> myEntries=reader.readAll();
 
 			        for(String[] line: myEntries){
-			        	for(String val: line){
+			        	List<String> Liste =Arrays.asList(line);
+			        	Vector<String> out = new Vector<String>();
+			        	CollectionUtils.select(Liste, new MonPredicat(), out);
+			        	System.out.println("OUT:" + out);
+			        	
+			        	for(String val: Liste){
 			        		
 			        			monmax=max(monmax,Integer.parseInt(val));
 			        	}
