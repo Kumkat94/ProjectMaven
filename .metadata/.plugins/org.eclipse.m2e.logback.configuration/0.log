@@ -421,3 +421,20 @@ java.io.InvalidClassException: org.eclipse.m2e.core.internal.project.registry.Ba
 2017-04-12 15:01:31,168 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /promo2019/crambour/INSA/3A/OutilsDev/3emePartie/ProjectMaven/jf/src/main/resources
 2017-04-12 15:01:31,169 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2017-04-12 15:01:31,171 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /promo2019/crambour/INSA/3A/OutilsDev/3emePartie/ProjectMaven/jf/src/test/resources
+2017-04-12 18:05:21,737 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-04-12 18:09:33,661 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-12 18:09:33,665 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /promo2019/crambour/INSA/3A/OutilsDev/3emePartie/ProjectMaven/jf/src/main/resources
+2017-04-12 18:09:33,666 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-12 18:09:33,668 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /promo2019/crambour/INSA/3A/OutilsDev/3emePartie/ProjectMaven/jf/src/test/resources
+2017-04-12 18:11:01,048 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-12 18:11:01,050 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /promo2019/crambour/INSA/3A/OutilsDev/3emePartie/ProjectMaven/jf/src/main/resources
+2017-04-12 18:11:01,051 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-12 18:11:01,052 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /promo2019/crambour/INSA/3A/OutilsDev/3emePartie/ProjectMaven/jf/src/test/resources
+2017-04-12 18:11:23,272 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-12 18:11:23,274 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /promo2019/crambour/INSA/3A/OutilsDev/3emePartie/ProjectMaven/jf/src/main/resources
+2017-04-12 18:11:23,275 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-12 18:11:23,276 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /promo2019/crambour/INSA/3A/OutilsDev/3emePartie/ProjectMaven/jf/src/test/resources
+2017-04-12 18:14:11,878 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-12 18:14:11,881 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /promo2019/crambour/INSA/3A/OutilsDev/3emePartie/ProjectMaven/jf/src/main/resources
+2017-04-12 18:14:11,881 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-12 18:14:11,885 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /promo2019/crambour/INSA/3A/OutilsDev/3emePartie/ProjectMaven/jf/src/test/resources
