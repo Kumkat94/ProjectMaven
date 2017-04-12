@@ -50,3 +50,16 @@
 2017-04-12 11:14:03,875 [Worker-3] INFO  Studio for Android - [Status: id=org.eclipse.andmore.android.emulator.status.online;name=Online]
 2017-04-12 11:14:03,875 [Worker-3] INFO  Studio for Android - [Status: id=OFF;name=OFF]
 2017-04-12 11:14:03,875 [Worker-3] INFO  Studio for Android - [Status: id=org.eclipse.andmore.android.emulator.status.offlineNoData;name=Offline (no user data)]
+2017-04-12 12:14:04,138 [main] DEBUG class java.lang.Class - Starting Eclipse Andmore Database Core Plugin...
+2017-04-12 12:14:04,154 [main] DEBUG Studio for Android - JDBC Driver Location:bundleentry://69.fwk2084863094/res/androidjdbc.jar JDBC Driver getBundle().getLocation():reference:file:plugins/org.eclipse.andmore.android.common_0.5.0.201605181018.jar
+2017-04-12 12:14:04,156 [main] DEBUG Studio for Android - JDBC Driver Path:/ark/linux64/eclipse64/eclipse-neon/configuration/org.eclipse.osgi/69/0/.cp/res/androidjdbc.jar
+2017-04-12 12:14:04,156 [main] DEBUG Studio for Android - JDBC Driver Location:bundleentry://69.fwk2084863094/res/androidjdbc.jar JDBC Driver getBundle().getLocation():reference:file:plugins/org.eclipse.andmore.android.common_0.5.0.201605181018.jar
+2017-04-12 12:14:04,156 [main] DEBUG Studio for Android - JDBC Driver Path:/ark/linux64/eclipse64/eclipse-neon/configuration/org.eclipse.osgi/69/0/.cp/res/androidjdbc.jar
+2017-04-12 12:14:04,174 [main] INFO  Studio for Android - Created a JDBC driver instance at Data Tools.
+2017-04-12 12:14:04,179 [main] DEBUG class java.lang.Class - Eclipse Andmore Database Core Plugin started.
+2017-04-12 12:14:04,179 [main] DEBUG class java.lang.Class - Starting Eclipse Andmore Database Devices Support Plugin...
+2017-04-12 12:14:04,182 [main] DEBUG class java.lang.Class - Eclipse Andmore Database Devices Support Plugin started...
+2017-04-12 12:14:05,064 [Framework stop] DEBUG Studio for Android - org.eclipse.sequoyah.device.service.start.StartServicePlugin-SHUTDOWN
+2017-04-12 12:14:05,074 [Framework stop] DEBUG Studio for Android - org.eclipse.sequoyah.device.framework.ui.DeviceUIPlugin-SHUTDOWN
+2017-04-12 12:14:05,074 [Framework stop] DEBUG Studio for Android - org.eclipse.sequoyah.device.service.stop.StopServicePlugin-SHUTDOWN
+2017-04-12 12:14:05,074 [Framework stop] DEBUG Studio for Android - org.eclipse.sequoyah.device.framework.DevicePlugin-SHUTDOWN

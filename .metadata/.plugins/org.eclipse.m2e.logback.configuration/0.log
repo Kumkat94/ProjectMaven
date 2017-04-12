@@ -274,3 +274,7 @@ java.io.InvalidClassException: org.eclipse.m2e.core.internal.project.registry.Ba
 2017-04-12 11:56:21,362 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /promo2019/crambour/INSA/3A/OutilsDev/3emePartie/ProjectMaven/jf/src/main/resources
 2017-04-12 11:56:21,363 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2017-04-12 11:56:21,369 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /promo2019/crambour/INSA/3A/OutilsDev/3emePartie/ProjectMaven/jf/src/test/resources
+2017-04-12 12:14:01,260 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-12 12:14:01,262 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /promo2019/crambour/INSA/3A/OutilsDev/3emePartie/ProjectMaven/jf/src/main/resources
+2017-04-12 12:14:01,264 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-12 12:14:01,266 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /promo2019/crambour/INSA/3A/OutilsDev/3emePartie/ProjectMaven/jf/src/test/resources

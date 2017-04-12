@@ -1,9 +1,8 @@
 package jf;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.FileNotFoundException;
 import java.util.List;
-
 import com.opencsv.*;
 
 /**
@@ -36,15 +35,16 @@ public class App
 
 			        for(String[] line: myEntries){
 			        	for(String val: line){
-			        		
-			        			monmax=max(monmax,Integer.parseInt(val));
+			        		if (Integer.parseInt(val) > monmax){
+			        			monmax = Integer.parseInt(val);
+
+			        		}
 			        	}
 			        }
 		        }
 		        catch(IOException e){
 		        	System.out.println("Problème readAll()");
 		        }
-	        reader.close();
 		}
 		catch(FileNotFoundException e){
 			System.out.println(e.getMessage());
