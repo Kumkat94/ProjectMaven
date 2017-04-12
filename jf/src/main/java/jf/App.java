@@ -4,7 +4,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.List;
 
-import com.opencsv.*;
+import com.opencsv.CSVReader;
 
 /**
  * Hello world!
@@ -26,7 +26,6 @@ public class App
         System.out.println("Resultat de ma fonction Max: "+result);
        
         int monmax=0;
-        int nb=0;
 
         try{
         	CSVReader reader = new CSVReader(new FileReader("data.csv"));
@@ -44,12 +43,10 @@ public class App
 		        catch(IOException e){
 		        	System.out.println("Problème readAll()");
 		        }
-	        reader.close();
 		}
 		catch(FileNotFoundException e){
 			System.out.println(e.getMessage());
 		}
-        System.out.println("Nombre lu:"+myEntries);
         System.out.println("Le Max est:"+monmax);
     }
 	
