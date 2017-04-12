@@ -1,6 +1,7 @@
 package jf;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
@@ -9,6 +10,7 @@ import java.util.Vector;
 import org.apache.commons.collections.CollectionUtils;
 
 import com.opencsv.CSVReader;
+import com.opencsv.CSVWriter;
 
 
 /**
@@ -34,22 +36,28 @@ public class App
 
         try{
         	CSVReader reader = new CSVReader(new FileReader("data.csv"));
-        
 	        try{	
 		        List<String[]> myEntries=reader.readAll();
-
+		        CSVWriter writer= new CSVWriter(new FileWriter("data-filtered.csv"));
 			        for(String[] line: myEntries){
+	
 			        	List<String> Liste =Arrays.asList(line);
 			        	Vector<String> out = new Vector<String>();
 			        	CollectionUtils.select(Liste, new MonPredicat(), out);
 			        	System.out.println("OUT:" + out);
+			        	
+			        	String[] aEcrire = out.toArray(new String[0]);
+			        	writer.writeNext(aEcrire);
 			        	
 			        	for(String val: Liste){
 			        		
 			        			monmax=max(monmax,Integer.parseInt(val));
 			        	}
 			        }
-		        }
+			   reader.close();
+			   writer.close();
+			   }
+	        	
 		        catch(IOException e){
 		        	System.out.println("Problème readAll()");
 		        }
